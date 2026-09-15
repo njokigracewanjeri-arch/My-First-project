@@ -1,4 +1,4 @@
-Hey There i'm Grace 
+Hey There I'm Grace 
 This is My First Project
-I'm a programming Student at Wecan academy
-I'm currently learning HTML, Git and Git
+I'm a Programming Student at Wecan Academy
+I'm Currently learning HTML, Git and Git
