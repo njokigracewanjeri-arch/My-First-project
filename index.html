@@ -1,1 +1,110 @@
-<!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width"><title>Grace Wanjeri</title><style>body{background:#fff0f5;font-family:sans-serif;margin:0;text-align:center}nav{background:#fff;padding:15px;display:flex;justify-content:space-around}nav a{color:#ff5a8a;text-decoration:none;font-weight:bold}.card{background:#fff;margin:15px;padding:20px;border-radius:15px}.gallery{display:flex;gap:10px;justify-content:center}.gallery img{width:90px;height:90px;border-radius:10px}.btn{background:#ff5a8a;color:#fff;padding:10px 20px;border-radius:20px;text-decoration:none;display:inline-block;margin:5px}</style></head><body><nav><a href="#about">About</a><a href="#gallery">Gallery</a><a href="#blog">Blog</a><a href="#contact">Contact</a></nav><div class="card"><h1 style="color:#ff5a8a">Hey, I'm Grace Wanjeri! 👋</h1><p>I'm a student. I love science and building cool things on the web.</p><img src="https://picsum.photos/seed/grace/120" style="border-radius:50%"><br><br><a class="btn" href="#gallery">My Projects</a><a class="btn" style="background:#fff;color:#ff5a8a;border:2px solid #ff5a8a" href="#contact">Contact Me</a></div><div class="card"><h2>Gallery - Day 4</h2><div class="gallery"><img src="https://picsum.photos/seed/a/200"><img src="https://picsum.photos/seed/b/200"><img src="https://picsum.photos/seed/c/200"></div></div><div class="card"><h2>My Blog - Day 5</h2><p><b>Sep 25, 2026:</b> Today I learned clone, commit, push and deploy!</p></div><div class="card"><h2>Contact - Day 3</h2><p>Email: grace@example.com</p><p>GitHub: njokigracewanjeri-arch</p></div></body></html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grace Wanjeri - My First Project</title>
+<style>
+body { font-family: Arial; margin:0; padding:0; line-height:1.6; }
+header { background:#333; color:white; padding:20px; text-align:center; }
+nav a { color:white; margin:0 10px; text-decoration:none; }
+section { padding:20px; margin:10px; border-radius:8px; }
+img { max-width:100%; border-radius:8px; }
+.gallery { display:flex; gap:10px; flex-wrap:wrap; }
+.gallery img { width:150px; height:150px; object-fit:cover; }
+table { border-collapse:collapse; width:100%; max-width:400px; }
+th, td { border:1px solid #333; padding:8px; text-align:left; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Grace Wanjeri</h1>
+  <p>Web Developer | IYF Student</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#lists">Lists</a>
+    <a href="#skills">Skills</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+<main>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I am Grace Wanjeri, learning Web Development at IYF.</p>
+    <p>This is my <strong>first project</strong> built with HTML!</p>
+    <img src="https://picsum.photos/300/300?random=1" alt="Grace profile">
+  </section>
+  <section id="gallery" style="background:#f4f4f4;">
+    <h2>My Gallery</h2>
+    <div class="gallery">
+      <img src="https://picsum.photos/200/200?random=2" alt="Gallery 1">
+      <img src="https://picsum.photos/200/200?random=3" alt="Gallery 2">
+      <img src="https://picsum.photos/200/200?random=4" alt="Gallery 3">
+    </div>
+  </section>
+  <section id="lists" style="background:#fff8e1;">
+    <h2>My Hobbies - Unordered List</h2>
+    <ul>
+      <li>Coding</li>
+      <li>Reading</li>
+      <li>Music</li>
+    </ul>
+    <h2>My Goals - Ordered List</h2>
+    <ol>
+      <li>Finish IYF Web Dev</li>
+      <li>Build 5 websites</li>
+      <li>Get internship</li>
+    </ol>
+  </section>
+  <section id="skills">
+    <h2>My Skills - Table</h2>
+    <table>
+      <tr>
+        <th>Skill</th>
+        <th>Level</th>
+      </tr>
+      <tr>
+        <td>HTML</td>
+        <td>Beginner</td>
+      </tr>
+      <tr>
+        <td>GitHub</td>
+        <td>Beginner</td>
+      </tr>
+      <tr>
+        <td>CSS</td>
+        <td>Learning</td>
+      </tr>
+    </table>
+  </section>
+  <article id="blog" style="background:#e3f2fd;">
+    <h2>My Blog</h2>
+    <h3>Day 5: My Journey</h3>
+    <p><em>Sep 25, 2026</em></p>
+    <p>Today I learned how to deploy my website to GitHub Pages. It was amazing!</p>
+    <img src="https://picsum.photos/400/200?random=5" alt="Blog image">
+  </article>
+  <section id="contact" style="background:#f0f0f0;">
+    <h2>Contact Me - Form & Inputs</h2>
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" placeholder="Your name"><br><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" placeholder="Your email"><br><br>
+      <label for="date">Date:</label><br>
+      <input type="date"><br><br>
+      <input type="checkbox"> Subscribe to newsletter<br><br>
+      <input type="submit" value="Send Message">
+    </form>
+    <br>
+    <p>Email: <a href="mailto:grace@example.com">grace@example.com</a></p>
+    <p>GitHub: <a href="https://github.com/njokigracewanjeri-arch" target="_blank">My GitHub</a></p>
+  </section>
+</main>
+<footer style="background:#333; color:white; text-align:center; padding:10px;">
+  <p>&copy; 2026 Grace Wanjeri</p>
+</footer>
+</body>
+      </html>
